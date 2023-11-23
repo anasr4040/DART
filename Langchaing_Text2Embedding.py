@@ -10,11 +10,11 @@ import openai
 
 
 
-openai.api_key = "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"
-os.environ["OPENAI_API_KEY"] = "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"
+openai.api_key = "ADD_YOUR_API_KEY"
+os.environ["OPENAI_API_KEY"] = "ADD_YOUR_API_KEY"
 
 
-path = r"C:\Users\marte\Downloads\Anas_Rabbani_CV_(1).pptx"
+path = r"PathToTheFileYouWantToScan"
 text = ""
 file_name, extension = file_extension(path)
 
