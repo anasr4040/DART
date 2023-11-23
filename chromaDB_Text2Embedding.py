@@ -12,7 +12,7 @@ import os
 
 
 def create_embeddings(chunks):
-    os.environ["OPENAI_API_KEY"] = "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"
+    os.environ["OPENAI_API_KEY"] = "ADD_YOUR_API_KEY"
     embedding_function = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
     #global vectordb 
     try:
