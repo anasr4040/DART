@@ -6,8 +6,8 @@ import os
 
 class Crawl:
     def webcrawl(self):
-        os.environ['OPENAI_API_KEY'] = "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"
-        os.environ["APIFY_API_TOKEN"] = "apify_api_gET7ArkkVa1MP9hHPjB6aSs7bEdlLa3ZIJ1e"
+        os.environ['OPENAI_API_KEY'] = "API_KEY"
+        os.environ["APIFY_API_TOKEN"] = "API_KEY"
 
         apify = ApifyWrapper()
         url = input("Enter URL: ")
